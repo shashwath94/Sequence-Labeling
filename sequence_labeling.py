@@ -91,9 +91,7 @@ def main():
     if len(sys.argv) > 1:
         path_config = sys.argv[1]
     else:
-        print("usage: python3 -m vsmlib.benchmarls.sequence_labeling.sequence_labeling <config file>")
-        print("config file example can be found at ")
-        print("https://github.com/undertherain/vsmlib/blob/master/vsmlib/benchmarks/sequence_labeling/sequence_labeling/config.yaml")
+        print("Run command : python3 sequence_labeling.py config.yaml")
         return
 
     with open(path_config, 'r') as ymlfile:
