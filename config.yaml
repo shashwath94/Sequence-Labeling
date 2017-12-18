@@ -1,6 +1,6 @@
 #path_vectors: ./../../../test/data/embeddings/npy/
 
 path_vectors: /home/shashwath/ldt/Li-wiki201308_filtered/structured_deps/cbow/500d/
-path_dataset: /home/shashwath/Tensorflow/NeuroNER-master/data/conll2003/en/
+path_dataset: /home/shashwath/NER/data/
 window: 2
 task: ner
